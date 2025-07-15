@@ -1,2 +1,4 @@
 # soc-alert-case-studies
-Phishing and firewall alert investigations with documented triage steps
+
+A collection of phishing and firewall alert investigations conducted in TryHackMe simulations and lab environments.  
+Demonstrates alert triage, IOAs, threat intelligence, and documentation workflow with documented triage steps.
