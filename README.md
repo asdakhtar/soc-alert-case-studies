@@ -1,3 +1,4 @@
+![SOC Alert Banner](./CreateaGithubbann.png)
 # soc-alert-case-studies
 
 A collection of phishing and firewall alert investigations conducted in TryHackMe simulations and lab environments.  
