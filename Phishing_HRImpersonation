@@ -1,1 +1,61 @@
+# 🛡️ Case Report – ID: 8814
 
+---
+
+## 📅 Time of Activity
+
+**Timestamp**: July 15, 2025 – 13:10:46 IST  
+**Alert Triggered**: July 15, 2025 – 13:12 IST
+
+---
+
+## 🧑‍💻 List of Affected Entities
+
+- **Recipient**: j.garcia@thetrydaily.thm  
+- **Sender**: onboarding@hrconnex.thm  
+- **Direction**: Inbound Email  
+- **Domain Involved**: hrconnex.thm
+
+---
+
+## ✅ Reason for Classifying as True Positive
+
+- The email contained a **suspicious external link** impersonating an HR onboarding process.
+- The domain `hrconnex.thm` is **not recognized** as a legitimate HR service.
+- The message used **social engineering tactics** (urgency, personalization).
+- The link structure resembles **phishing behavior** aimed at credential harvesting.
+
+---
+
+## ⚠️ Reason for Escalating the Alert
+
+- The email bypassed filters and reached the user’s inbox.
+- The domain is **not previously seen** in threat intel feeds.
+- Potential risk of **credential compromise** if the link is clicked.
+- Requires **proactive blocking** and user awareness.
+
+---
+
+## 🛠️ Recommended Remediation Actions
+
+1. **Block the domain** `hrconnex.thm` in email gateway and proxy (simulated).
+2. **Notify the recipient** with a security advisory (simulated).
+3. **Monitor proxy logs** for any future access attempts.
+4. **Add domain to threat intel repository** for future detection.
+5. **Include this case in phishing awareness training materials**.
+
+---
+
+## 🧾 List of Attack Indicators
+
+| Indicator Type     | Value                                      |
+|--------------------|---------------------------------------------|
+| Suspicious Domain  | `hrconnex.thm`                              |
+| Sender Email       | `onboarding@hrconnex.thm`                   |
+| URL in Email       | `https://hrconnex.thm/onboarding/15400654060/j.garcia` |
+| Subject Line       | `Action Required: Finalize Your Onboarding Profile` |
+| Email Content      | Urgent onboarding request with embedded link |
+
+---
+
+> 🧠 **Note**: No endpoint interaction was observed in proxy logs. Case classified as **True Positive – No Impact**. All actions simulated for educational purposes.
